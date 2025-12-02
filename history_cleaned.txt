@@ -1,0 +1,573 @@
+cd ai-yml/
+ls
+kubectl apply -f mongo-datacenter-nodeport.yml 
+sudo -i
+su -
+logout
+ls
+mkdir ai_team
+ls
+cd ai_team
+ls
+ls -al
+ls
+ls -al
+cd ai_team
+ls
+docker compose build
+sudo -i
+ls
+cd ai_
+ls
+cd ai_team
+ls
+docker load -i working.tar.gz 
+podman load -i working.tar.gz 
+docker compose up -d
+podman compose up -d
+docker compose up -d
+podman compose up -d
+curl -s -X 'POST' 'http://"$(kubectl get svc console-console-lics-svc -n console -o json | jq -r '.spec.clusterIP')":8080/openapi/v1/license/verify' -H 'accept: */*' -H 'Content-Type: application/json' -d '{"key": "1234"}'
+curl -vs -X 'POST' 'http://"$(kubectl get svc console-console-lics-svc -n console -o json | jq -r '.spec.clusterIP')":8080/openapi/v1/license/verify' -H 'accept: */*' -H 'Content-Type: application/json' -d '{"key": "1234"}'
+kubectl get svc console-console-lics-svc -n console -o json | jq -r '.spec.clusterIP
+'
+kubectl get svc console-console-lics-svc -n console -o json | jq -r '.spec.clusterIP
+'
+kubectl get svc console-console-lics-svc -n console -o json | jq -r '.spec.clusterIP'
+su -
+logout
+swap
+swapon
+ls
+top
+ls
+podman ps
+ls
+sudo -i
+cd /home/
+ls
+cd igloo/
+ls
+cd /SIEM_DATA/
+ls
+cd co
+cd collect/
+ls
+cd collect-data
+ls
+cd evt_file
+ls
+cd ..
+ls
+cd syslog_evt_file/
+ls
+tail -f 10.1.1.10
+cd 10.1.1.10
+ls
+tail -f 2025103114.log 
+clear
+netstat
+ip tables
+ip addr show
+exity
+exit
+ls
+podman load -i testapp.tar.gz 
+podman images
+cd ai-yml
+ls
+cd ..
+ls
+cd ai_team/
+ls
+cat compose.yml 
+vi run_podman.sh
+ls
+chmod +x ./run_podman.sh 
+ls
+podman images
+vi run_podman.sh 
+podman ps
+./run_podman.sh 
+sudo -i
+ls
+./run_podman.sh 
+exit
+ls
+cd ai_team/
+ls
+docker ps
+podman ps
+podman images
+sudo -i
+exit
+ls
+pwd
+helm pull prometheyus-community/kube-prometheus-stack --version 48.2.1 --untar
+helm pull prometheus-community/kube-prometheus-stack --version 48.2.1 --untar
+sudo -i
+ls
+k9s
+sudo -i
+su -
+su
+su -
+su
+ls
+sudo -i
+sudo -i
+su
+k9s
+su 
+ls
+cd ai_team/
+ls
+docker load -i 1107.tar.gz 
+podman load -i 1107.tar.gz
+podman images
+podman tag 21e anomaly-test-app:1.0.0-rc1
+podman images
+podman prune -f
+podman system prune -f
+podman images
+podman rmi 10.1.1.251:30500/ai-anomaly/manager:0.14.21
+podman rmi igloo.registry/ai-anomaly/manager:0.14.21
+podman images
+ls
+rm kube-prometheus-stack-48.2.1.tgz 
+rm testapp.tar.gz 
+ls
+cd ai_team/
+ls
+rm working.tar.gz 
+vi run_podman.sh 
+podman images
+podman ps
+./run_podman.sh 
+ls
+mv anomaly-test1.0.0-rc2.tar.gz ai_team
+cd ai_team/
+ls
+rm 1107.tar.gz 
+podman load -i anomaly-test1.0.0-rc2.tar.gz 
+ls
+podman images
+vi run_podman.sh 
+./run_podman.sh 
+podman ps
+podman images
+ls
+podman ps
+sudo -i
+kubectl get po
+k9s
+k9s
+ll
+sudo
+su -i
+sudo -i
+ll
+mkdir juwon
+ll
+cd juwon/
+ll
+git clone git@ailabdev.igloo.co.kr:ailab.model1/exd-mcp-server.git
+cat /etc/os-release 
+cd ..
+ll
+rm -rf juwon/
+ll
+sudo useradd -m -s /bin/bash juwon
+sudo passwd juwon
+id juwon
+sudo usermod -aG wheel juwon
+ls
+cd ai_team
+ls
+cat run_podman.sh 
+ls
+./run_podman.sh 
+lsof -i :40714
+lsof -i 40714
+lsof -i :40714
+sudo -i
+ls
+cd ..
+ls
+exit
+su
+top
+k9s
+sudo k9s
+sudo kubectl get po
+sudo kubectl get role
+kubectl 
+kubectl get po
+ll
+cd .kube
+ll
+mkdir -p ~/.kube
+sudo k3s kubectl config view --raw > ~/.kube/config
+k3s
+k3s kubectl config view --raw > ~/.kube/config
+sudo k3s
+sudo cp /etc/rancher/k3s/k3s.yaml ~/.kube/config
+sudo chown "$USER":"$USER" ~/.kube/config && chmod 600 ~/.kube/config
+export KUBECONFIG="$HOME/.kube/config"
+k9s
+su -
+ls -al /usr/bin/su
+exit
+ll
+k9s
+ll
+cd ExD_Setup-V1.0.8.0-1.202508051715/
+LL
+ll
+cd package/
+ll
+cd manifests/
+ll
+cd ..
+cd manifests/
+ll
+cat basic-auth.yaml 
+ll
+cat traefik-config.yaml 
+l
+ll
+cd ..
+ll
+cd charts/
+ll
+cd ntp-server/
+ll
+cat values.yaml 
+cd ..
+ll
+cd metallb/
+ll
+cat values.
+cat values.yaml 
+ll
+cat ll
+ll
+cd ..
+ll
+cd ..
+ll
+cd ca
+ll
+cd k8s/
+ll
+cd ..
+ll
+cd ..
+ll
+cd scripts/
+ll
+cd ..
+ll
+cd ..
+ll
+cd ..
+ll
+cd ai_team/
+ll
+cat compose.yml 
+ll
+cd /
+ll
+cd SIEM_DATA
+ll
+cd /
+ll
+cd usr
+ll
+cd ..
+ll
+cd base
+ll
+cd ..
+su -i
+sudo -i
+su -
+exit
+su -
+exit
+su -
+exit
+su -
+exit
+su - 
+top
+ps -eo pid,ppid,user,stat,cmd | grep ' Z' | head
+ps -p 3683516 -o pid,ppid,user,stat,cmd
+ls
+cd ai_team/
+ls
+docker ps
+clear
+sudo su
+kubectl get pods --all-namespaces   --selector app.kubernetes.io/name=ingress-nginx
+kubectl get pods --all-namespaces   --selector app.kubernetes.io/name=ingress-nginx
+sudo kubectl get pods --all-namespaces   --selector app.kubernetes.io/name=ingress-nginx
+su -
+ls
+top
+cd /var/log/
+ls
+cd audit/
+ls
+cd audit
+ls
+sudo -i
+ls
+cd ai_team
+ls
+podman ps
+sudo -i
+top
+ls
+cd ai-yml/
+ls
+cat mongo-datacenter-nodeport.yml 
+ls
+cat try_nodeport.yml 
+cp try_nodeport.yml mongo-nodeport.yml
+vi mongo-nodeport.yml 
+kubectl apply -f mongo-nodeport.yml 
+sudo -i
+podman ps
+sudo -i
+k9s
+netstat -tlnp | grep 9543
+sudo netstat -tlnp | grep 9543
+curl -X 'GET' 'https://localhost:9543/iums/api/v1/common/admin-token' -H 'accept: application/json'
+curl -X 'GET' 'https://218.49.112.88:9543/iums/api/v1/common/admin-token' -H 'accept: application/json'
+curl -X 'GET' 'https://218.49.112.88:9543/iums/api/v1/common/admin-token' -H 'accept: application/json' -k
+k9s
+nvidia-smi
+=ls
+ls
+sudo su
+su
+sudo su
+ls
+cd ExD_Setup-V1.0.8.0-1.202508051715/
+ls
+./setup.sh 
+sudo -i
+docker ps
+sudo su
+sudo su
+ls
+sudo -i
+sudo su
+id
+sudo su
+ls
+sudo su
+su -
+passwd
+su -
+su -
+exit
+sudo vi /etc/pam.d/system-auth
+vi /etc/passwd
+sudo vi /etc/pam.d/password-auth
+sudo vi /etc/pam.d/system-auth
+ls  -al  /etc/hosts
+ls -al  /etc/shadow
+ls  -al  /etc/hosts
+sudo chmod 600 /etc/hosts
+ls  -al  /etc/hosts
+ls -al /etc/rsyslog.conf
+sudo chmod 640  /etc/rsyslog.conf
+ls -al /etc/rsyslog.conf
+ls -al /usr/bin/crontab
+ls -al /etc/crontab
+sudo chmod 640 /etc/crontab
+ls -al /etc/crontab
+ls -al /usr/bin/crontab
+vi /etc/group
+sudo ls -al /home/juwon/
+su -
+sudo ls -al /root
+ls -al /usr/bin/su
+id igloo
+cat /etc/login.defs | grep PASS_MIN_LEN
+cat /etc/login.defs | grep PASS_MAX_DAYS
+sudo vi /etc/login.defs
+sudo vi /etc/shadow
+sudo chage -M 90 root
+sudo chage -M 90 igloo
+sudo chage -M 90 juwon
+sudo chage -m 1 root
+sudo chage -m 1 igloo
+sudo chage -m 1 juwon
+sduo vi /etc/shadow
+sudo vi /etc/shadow
+vi /etc/profile
+ls -al /usr/bin/at
+ls -al /etc/at.*
+sudo vi /etc/issue.net
+sudo vi /etc/ssh/sshd_config
+sudo tee /etc/rsyslog.d/99-custom-logging.conf >/dev/null <<'EOF'
+*.info;mail.none;authpriv.none;cron.none     -/var/log/messages
+authpriv.*                                    /var/log/secure
+mail.*                                        -/var/log/maillog
+cron.*                                        -/var/log/cron
+*.alert                                       /dev/console
+*.emerg                                       :omusrmsg:*
+EOF
+vi /etc/rsyslog.d/99-custom-logging.conf
+/etc/rsyslog.d/99-custom-logging.conf
+sudo rsyslogd -N1
+sudo systemctl restart rsyslog
+df -gh
+df -h
+ls
+mkdir IGLOO_CHECK
+cd IGLOO_CHECK/
+ls
+chmod 700 IGLOO_LINUX_2025_0808.sh 
+ls
+sudo ./IGLOO_LINUX_2025_0808.sh 
+ls
+sudo rm -rf LINUX^igloo-88^250808/
+sl
+ls
+exit
+su -
+whoami
+exit
+su -
+exit
+logout
+ls
+docker ps
+podman ps
+podman images
+cd ai_team/
+ls
+./run_podman.sh 
+lsof -i :40714
+ps -ef | grep rootlessport
+ps -ef
+ps -ef | grep mari
+ps -ef | grep marimo
+kill -9 609447
+sudo kill -9 609447
+sudo -i
+ls -al /etc/cron.deny
+sudo chmod 640 /etc/cron.deny
+ls -al /etc/cron.deny
+ls
+cd IGLOO_CHECK/
+sl
+ls
+sudo ./IGLOO_LINUX_2025_0808.sh 
+logout
+top
+tail
+date
+top
+df
+df -h | grep -v var | grep -v k3s
+dd if=/dev/zero bs=1024 count=100 of=/SIEM_DATA/test_file oflag=direct
+cd /
+ll
+su -
+iostats
+iostat
+dd if=/dev/zero bs=1M count=2048 of=/SIEM_DATA/test_file oflag=direct
+su -
+su -
+su -
+ll
+task run
+uv run
+ll
+sudo -I
+sudo -l
+sudo -
+sudo -
+ll
+sudo vi /etc/hosts
+ssh igloo88
+exit
+ls
+.ssh
+ls
+w
+who
+cd .ssh
+ls
+vim /etc/security/limits.conf
+sudo -i
+su -
+exit
+ls
+su -
+su -
+history
+sudo -i
+su -
+passwd
+sudo passwd
+ls
+su -
+ls
+cd .ssh
+ls
+cat authorized_keys 
+vim authorized_keys 
+whoami
+ls
+cd .ssh
+ls
+cat authorized_keys 
+docker
+podman --version
+clear
+uname -a
+clear
+which uv
+ls
+cd ~
+ls
+ls -a
+which k9s
+which node
+which java
+java --version
+java -V
+java -v
+java versjion
+java version
+clear
+ls
+clear
+java2231231
+clear
+ls
+nvidia-smi
+clear
+df -h .
+df -h
+sudo su
+su root
+su -
+df -h /SIEM_DATA
+ls
+docker ps
+su -
+cd /SIEM_DATA/collect/collect-data/syslog_evt_file/10.1.1.121
+su -
+ip addr
+clear
+docker ps -a
+clear
+history
+history > history.txt
